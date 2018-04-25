@@ -10,7 +10,11 @@ namespace Northwindbinding.Controllers
 {
     public class ProductController : Controller
     {
-        NORTHWNDEntities db = new NORTHWNDEntities();
+        NORTHWNDEntities db;
+        public ProductController(NORTHWNDEntities db)
+        {
+            this.db = db;
+        }
         
 
         public IActionResult Create()
@@ -23,24 +27,30 @@ namespace Northwindbinding.Controllers
             return View("New", customPSModel);
         }
 
-        [Route("{ProductName}-{UnitPrice}-{QuantityPerUnit}-{Supplier}-{Category}")]
+        [HttpPost]
+        //[Route("{ProductName}-{UnitPrice}-{QuantityPerUnit}-{Supplier}-{Category}")]
         public ActionResult HandleProduct(string ProductName, decimal UnitPrice, string QuantityPerUnit, string Supplier, string Category)
         {
             Random r = new Random();
 
-            Products p = new Products
-            {
-                ProductName = ProductName,
-                QuantityPerUnit = QuantityPerUnit,
-                Discontinued = false,
-                UnitsInStock = Convert.ToInt16(r.Next()),
-                CategoryID = db.Categories.Where(x => x.CategoryName == Category).Select(x => x.CategoryID).First(),
-                ReorderLevel = Convert.ToInt16(r.Next()),
-                UnitPrice = UnitPrice,
-                SupplierID = db.Suppliers.Where(x => x.CompanyName == Supplier).Select(x => x.SupplierID).First(),
-                UnitsOnOrder = Convert.ToInt16(r.Next()),
+            //Products p = new Products
+            //{
+            //    ProductName = ProductName,
+            //    QuantityPerUnit = QuantityPerUnit,
+            //    Discontinued = false,
+            //    UnitsInStock = Convert.ToInt16(r.Next(100)),
+            //    CategoryID = db.Categories.Where(x => x.CategoryName == Category).Select(x => x.CategoryID).First(),
+            //    ReorderLevel = Convert.ToInt16(r.Next()),
+            //    UnitPrice = UnitPrice,
+            //    SupplierID = db.Suppliers.Where(x => x.CompanyName == Supplier).Select(x => x.SupplierID).First(),
+            //    UnitsOnOrder = Convert.ToInt16(r.Next(100)),
 
-            };
+            //};
+            Products p = new Products();
+            Task<bool> taskboi = TryUpdateModelAsync(p);
+            //bool boi = await taskboi;
+            p.UnitsInStock = Convert.ToInt16(r.Next(100));
+            
 
             return View("Edit", p);
         }

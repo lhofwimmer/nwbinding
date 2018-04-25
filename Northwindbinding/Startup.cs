@@ -21,6 +21,7 @@ namespace Northwindbinding
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<NorthwindLibrary.NORTHWNDEntities>(x => new NorthwindLibrary.NORTHWNDEntities());
             services.AddMvc();
         }
 
@@ -43,8 +44,9 @@ namespace Northwindbinding
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Product}/{action=New}/{id?}");
+                    template: "{controller=Product}/{action=Create}/{id?}");
             });
+            //app.UseMvcWithDefaultRoute();
         }
     }
 }
