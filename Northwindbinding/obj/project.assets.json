@@ -9157,8 +9157,8 @@
     },
     "NorthwindLibrary/1.0.0": {
       "type": "project",
-      "path": "../../DatabaseLibraries/NorthwindLibrary/NorthwindLibrary/NorthwindLibrary.csproj",
-      "msbuildProject": "../../DatabaseLibraries/NorthwindLibrary/NorthwindLibrary/NorthwindLibrary.csproj"
+      "path": "../NorthwindLibrary/NorthwindLibrary/NorthwindLibrary.csproj",
+      "msbuildProject": "../NorthwindLibrary/NorthwindLibrary/NorthwindLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9209,8 +9209,8 @@
       "frameworks": {
         "net461": {
           "projectReferences": {
-            "C:\\Users\\Lukas\\Documents\\Schule\\Programmieren\\DatabaseLibraries\\NorthwindLibrary\\NorthwindLibrary\\NorthwindLibrary.csproj": {
-              "projectPath": "C:\\Users\\Lukas\\Documents\\Schule\\Programmieren\\DatabaseLibraries\\NorthwindLibrary\\NorthwindLibrary\\NorthwindLibrary.csproj"
+            "C:\\Users\\Lukas\\Documents\\Schule\\Programmieren\\Northwindbinding\\NorthwindLibrary\\NorthwindLibrary\\NorthwindLibrary.csproj": {
+              "projectPath": "C:\\Users\\Lukas\\Documents\\Schule\\Programmieren\\Northwindbinding\\NorthwindLibrary\\NorthwindLibrary\\NorthwindLibrary.csproj"
             }
           }
         }

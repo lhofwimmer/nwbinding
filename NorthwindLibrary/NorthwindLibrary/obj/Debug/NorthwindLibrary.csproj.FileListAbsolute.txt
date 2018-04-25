@@ -1,0 +1,13 @@
+C:\Users\Lukas\Documents\Schule\Programmieren\DatabaseLibraries\NorthwindLibrary\NorthwindLibrary\bin\Debug\NORTHWND.MDF
+C:\Users\Lukas\Documents\Schule\Programmieren\DatabaseLibraries\NorthwindLibrary\NorthwindLibrary\bin\Debug\NORTHWND_log.ldf
+C:\Users\Lukas\Documents\Schule\Programmieren\DatabaseLibraries\NorthwindLibrary\NorthwindLibrary\bin\Debug\NorthwindLibrary.dll.config
+C:\Users\Lukas\Documents\Schule\Programmieren\DatabaseLibraries\NorthwindLibrary\NorthwindLibrary\bin\Debug\NorthwindLibrary.dll
+C:\Users\Lukas\Documents\Schule\Programmieren\DatabaseLibraries\NorthwindLibrary\NorthwindLibrary\bin\Debug\NorthwindLibrary.pdb
+C:\Users\Lukas\Documents\Schule\Programmieren\DatabaseLibraries\NorthwindLibrary\NorthwindLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Lukas\Documents\Schule\Programmieren\DatabaseLibraries\NorthwindLibrary\NorthwindLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lukas\Documents\Schule\Programmieren\DatabaseLibraries\NorthwindLibrary\NorthwindLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Lukas\Documents\Schule\Programmieren\DatabaseLibraries\NorthwindLibrary\NorthwindLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lukas\Documents\Schule\Programmieren\DatabaseLibraries\NorthwindLibrary\NorthwindLibrary\obj\Debug\NorthwindLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Lukas\Documents\Schule\Programmieren\DatabaseLibraries\NorthwindLibrary\NorthwindLibrary\obj\Debug\NorthwindLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Lukas\Documents\Schule\Programmieren\DatabaseLibraries\NorthwindLibrary\NorthwindLibrary\obj\Debug\NorthwindLibrary.dll
+C:\Users\Lukas\Documents\Schule\Programmieren\DatabaseLibraries\NorthwindLibrary\NorthwindLibrary\obj\Debug\NorthwindLibrary.pdb

@@ -23,6 +23,7 @@ namespace Northwindbinding.Controllers
             return View("New", customPSModel);
         }
 
+        [Route("{ProductName}-{UnitPrice}-{QuantityPerUnit}-{Supplier}-{Category}")]
         public ActionResult HandleProduct(string ProductName, decimal UnitPrice, string QuantityPerUnit, string Supplier, string Category)
         {
             Random r = new Random();

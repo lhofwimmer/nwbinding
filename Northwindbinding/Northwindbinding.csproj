@@ -22,15 +22,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DatabaseLibraries\NorthwindLibrary\NorthwindLibrary\NorthwindLibrary.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Views\Shared\" />
     <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NorthwindLibrary\NorthwindLibrary\NorthwindLibrary.csproj" />
   </ItemGroup>
 
 </Project>
